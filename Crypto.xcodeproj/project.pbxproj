@@ -116,7 +116,7 @@
 			children = (
 				FAFBEBE528969334003013A2 /* CoinImage */,
 				FA36F8FD2895CC5800780210 /* CircleButton */,
-				FAC0A9BA2899C10700065DCB /* SearchBarView.swift */,
+				FAC0A9BE2899C8F400065DCB /* SearchBar */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -175,6 +175,14 @@
 				FA4ECB7B2895BF5B00AB07D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAC0A9BE2899C8F400065DCB /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				FAC0A9BA2899C10700065DCB /* SearchBarView.swift */,
+			);
+			path = SearchBar;
 			sourceTree = "<group>";
 		};
 		FAFBEBDF28967ADA003013A2 /* Services */ = {
