@@ -18,7 +18,7 @@ struct HomeView: View {
                 .ignoresSafeArea()
             VStack {
                 homeHeader
-
+                SearchBarView(searchText: $vm.searchText)
                 columnTitles
 
                 if !showPortfilio {
