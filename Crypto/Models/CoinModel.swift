@@ -117,4 +117,3 @@ struct CoinModel: Identifiable, Codable {
 struct SparklineIn7D: Codable {
     let price: [Double]?
 }
-

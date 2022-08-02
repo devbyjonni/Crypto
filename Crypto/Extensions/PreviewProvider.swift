@@ -9,11 +9,9 @@ import Foundation
 import SwiftUI
 
 extension PreviewProvider {
-    
     static var dev: DeveloperPreview {
         return DeveloperPreview.instance
     }
-    
 }
 
 class DeveloperPreview {

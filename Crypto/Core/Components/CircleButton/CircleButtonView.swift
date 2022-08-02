@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CircleButtonView: View {
+
     let iconName: String
 
     var body: some View {
@@ -21,7 +22,6 @@ struct CircleButtonView: View {
             )
             .shadow(color: Color.theme.accent.opacity(0.25), radius: 10, x: 0, y: 0)
             .padding()
-
     }
 }
 
