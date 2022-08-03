@@ -18,6 +18,7 @@ struct HomeView: View {
                 .ignoresSafeArea()
             VStack {
                 homeHeader
+                HomeStatsView(showPortfolio: $showPortfilio)
                 SearchBarView(searchText: $vm.searchText)
                 columnTitles
 
@@ -42,6 +43,7 @@ struct HomeView_Previews: PreviewProvider {
             HomeView()
                 .navigationBarHidden(true)
         }
+        .preferredColorScheme(.dark)
         .environmentObject(dev.homeVM)
     }
 }
