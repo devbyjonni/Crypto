@@ -29,3 +29,4 @@ struct CircleButtonAnimationView_Previews: PreviewProvider {
             .frame(width: 100, height: 100)
     }
 }
+
